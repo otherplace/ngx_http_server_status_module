@@ -7,15 +7,15 @@ Configuration directives
 ========================
 server_status_zone
 ------------------
-* **syntanx**: `server_status_zone zone*:size*`
-* **default**: `-`
-* **contenxt**: `http`
+* **syntax**: server_status_zone zone*:size*
+* **default**: -
+* **context**: http
 
 server_status
 --------------------
-* **syntanx**: `server_status zone=all*|zone,zone,..* *format=json|csv|xml*`
-* **default**: `server_status zone=all format=json`
-* **contenxt**: `server`, `location`, `if`
+* **syntax**: server_status zone=all*|zone,zone,..* *format=json|csv|xml*
+* **default**: server_status zone=all format=json
+* **context**: server, location, if
 
 
 Supported nginx version
@@ -26,7 +26,7 @@ Supported nginx version
 How to compile
 ==============
 
-$ cd nginx-1.10.x/
-$ ./configure --add-module=<path of this module>
+	$ cd nginx-1.10.x/
+	$ ./configure --add-module=<path of this module>
 
 
