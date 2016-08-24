@@ -13,13 +13,13 @@ server_status_zone
 
 server_status
 --------------------
-* **syntax**: server_status *format=json|csv|xml*
+* **syntax**: server_status *zone=all|name,name,...* *format=json|csv|xml*
 * **default**: server_status format=json
 * **context**: server, location, if, if in location
 
 server_status_use
 --------------------
-* **syntax**: server_status_use *zone=all|name,name,..* *off*
+* **syntax**: server_status_use *zone_name|off*
 * **default**: server_status_use off
 * **context**: server, location, if, if in location
 
